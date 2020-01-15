@@ -29,4 +29,4 @@
 
 #### UML
 
-* UML - Coming soon
+![](./assets/lab07.png)
