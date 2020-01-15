@@ -30,7 +30,21 @@ describe('logger middleware', () => {
   it('properly moves to the next middleware', () => {
     server.log(req, res, next);
     expect(next).toHaveBeenCalled();
+  });  
+});
+
+describe('timeStamp middleware', ()=> {
+  let req = {};
+  let res = {};
+  let next = jest.fn();
+
+  it('should adds a requestTime varible to the request object', ()=> {
+    server.timestamp(req, res, next);
+    expect(req.requestTime).toBeDefined();
   });
 
-  
+  it('properly moves to the next middleware', () => {
+    server.timestamp(req, res, next);
+    expect(next).toHaveBeenCalled();
+  });  
 });

@@ -2,17 +2,18 @@
 
 ## API Server
 
-### Author: Student/Group Name
+### Author: David Vloedman
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
+
+* [submission PR](https://github.com/david-vloedman-401-advanced-javascript/lab-07-api-server/pull/1)
 * [travis](https://www.travis-ci.com/david-vloedman-401-advanced-javascript/lab-07-api-server)
 
 
 
 #### Documentation
-* [api docs](http://xyz.com/api-docs) (API servers)
-* JSDoc Comment Required for all modules and functions in all .js files
+
+[Docs Index](./docs/index.html)
 
 ### Setup
 
@@ -27,4 +28,5 @@
 * npm test
 
 #### UML
-Link to an image of the UML for your application and response to events
+
+* UML - Coming soon
